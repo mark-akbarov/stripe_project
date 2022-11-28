@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Items</title>
+  </head>
+  <body>
+    {% for item in object_list %}
+    <a href="{% url 'item_detail' item.pk %}">
+        <h1>{{ item.name }}</h1>
+        <p>{{ item.description }}</p>
+        <p>{{ item.price }}</p>
+        <button id="buy-button">Buy</button>
+      </a>
+    {% endfor %}
+  </body>
+</html>
