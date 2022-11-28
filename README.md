@@ -3,6 +3,7 @@
 
 ### Project Setup
 
+
 <b>Create Database:</b>
 
   - create role stripe_user with login password '2404';
