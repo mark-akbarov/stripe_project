@@ -1,7 +1,7 @@
 # Stripe Project
 
 
-#### Project Setup
+### Project Setup
 
 <b>Create Database:</b>
 
